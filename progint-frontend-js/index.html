@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></link>
+
+    <title>Document</title>
+</head>
+<body>
+    <table id="tbCliente">
+        <thead>
+            <tr>
+             
+                <td>Nome</td>
+                <td>E-mail</td>
+                <td>CPF</td>
+                <td style="text-align: center;" colspan="2">Ação</td>
+            </tr>
+        </thead>
+        <tbody>
+           
+        </tbody>
+    </table>
+    <hr>
+    <form id="formCliente">
+        <input type="hidden" id="id" name="id" value="" />
+        <div class="form-item">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Insira o nome do cliente"/>
+        </div>
+        <div class="form-item">
+            <label for="email">E-mail:</label>
+            <input type="text" name="email" id="email" placeholder="Insira o e-mail do cliente"/>
+        </div>
+        <div class="form-item">
+            <label for="cpf">CPF:</label>
+            <input type="text" name="cpf" id="cpf" placeholder="Insira o cpf do cliente"/>
+        </div>
+            <button id="btnSalvarCliente">Salvar</button>  
+            <button id="btnLimparForm">Limpar</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
